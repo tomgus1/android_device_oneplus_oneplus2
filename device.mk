@@ -258,3 +258,6 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libtinyxml \
     libxml2
+
+# include additional build utilities
+include device/qcom/common/utils.mk
